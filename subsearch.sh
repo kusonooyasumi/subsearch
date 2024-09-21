@@ -11,5 +11,5 @@ crtsh_scan() {
 
 assetfinder $domain > $tags.subs.txt
 subfinder -d $domain >> $tags.subs.txt
-sublist3r -d $domain >> $tag.domain.txt
-crtsh_scan $domain >> $tag.domain.txt
+sublist3r -d $domain >> $tags.subs.txt
+crtsh_scan $domain >> $tags.subs.txt
